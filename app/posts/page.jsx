@@ -1,4 +1,3 @@
-import { resolve } from "styled-jsx/css";
 import PostCard from "../../components/PostCard";
 
 async function loadPosts() {
