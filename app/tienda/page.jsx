@@ -1,5 +1,3 @@
-
-
 function Tienda() {
     return (
         <div>
