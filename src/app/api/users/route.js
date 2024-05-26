@@ -7,7 +7,10 @@ export async function GET() {
     return NextResponse.json(data);
 }
 
-export function POST() {
+export async function POST(request) {
+    const { name, lastname } = await request.json();
+    console.log(name, lastname)
+
     return NextResponse.json({
         message: "creando datos!"
     })
